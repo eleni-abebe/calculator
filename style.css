@@ -1,0 +1,38 @@
+*{
+    background-color:rgb(155, 123, 123)
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.calculator{
+    border:1px black solid;
+    padding:20px;
+    height:350px;
+
+}
+.btn{
+    margin:8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width:40px;
+    padding:5px;
+    color:white;
+    border:2px black solid;
+    cursor:pointer;
+}
+#inpu{
+    margin:8px;
+    margin-bottom: 20px;
+    width:220px;
+    height:30px;
+    border:0px;
+    background-color: rgb(192, 169, 139);
+    text-align:right;
+    cursor:pointer;
+}
+.op{
+    color:rgb(57, 31, 85);
+}
